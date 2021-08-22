@@ -1,0 +1,7 @@
+config BR2_PACKAGE_HOST_GNUCOBOL
+	bool "host gnucobol"
+	select BR2_PACKAGE_GMP
+	help
+	  A free/libre COBOL compiler.
+
+	  https://gnucobol.sourceforge.io/
